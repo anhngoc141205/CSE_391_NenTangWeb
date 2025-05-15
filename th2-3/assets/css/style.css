@@ -1,0 +1,64 @@
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.box-left {
+    background-color: #fff;
+    box-shadow: #cbcbcb 0 0 10px;
+    padding: 30px;
+    flex: 1;
+}
+
+.box-right {
+    flex: 2;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.box-left h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.box-left p,
+.box-right p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.box-left strong {
+    display: block;
+    margin-top: 10px;
+    color: #000;
+    font-size: 1.1em;
+}
+
+.box-left p:last-child {
+    color: rgb(0, 114, 254);
+}
+
+.box-right p {
+    margin-bottom: 15px;
+}
+
+.box-right p:nth-child(2) {
+    font-weight: 600;
+}
